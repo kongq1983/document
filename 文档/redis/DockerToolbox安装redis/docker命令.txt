@@ -1,0 +1,9 @@
+windows启动Redis
+
+docker run -d --name shr-redis-server -p 6379:6379 -v /c/redis/conf/redis-windows.conf:/usr/local/etc/redis/redis.conf -v /c/redis/data/:/data redis:5.0.8 /usr/local/etc/redis/redis.conf --appendonly yes
+
+
+--------这条是上面那条备份
+docker run -d --name shr-redis-server -p 6379:6379 -v /c/redis/conf/redis-windows.conf:/usr/local/etc/redis/redis.conf -v /c/redis/data/:/data redis:5.0.8 /usr/local/etc/redis/redis.conf --appendonly yes
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+

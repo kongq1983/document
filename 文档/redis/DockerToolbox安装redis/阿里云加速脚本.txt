@@ -1,0 +1,24 @@
+docker-machine ssh default
+sudo sed -i "s|EXTRA_ARGS='|EXTRA_ARGS='--registry-mirror=https://c63ol3wn.mirror.aliyuncs.com |g" /var/lib/boot2docker/profile
+exit
+docker-machine restart default
+
+
+------------------------------------------------------------
+只要上面1段就好了
+------------------------------------------------------------
+docker-machine ssh default
+sudo sed -i "s|EXTRA_ARGS='|EXTRA_ARGS='--registry-mirror=https://c63ol3wn.mirror.aliyuncs.com |g" /var/lib/boot2docker/profile
+exit
+docker-machine restart default
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+docker-machine ssh default
+sudo sed -i "s|EXTRA_ARGS='|EXTRA_ARGS='--registry-mirror=https://c63ol3wn.mirror.aliyuncs.com |g" /var/lib/boot2docker/profile
+exit
+docker-machine restart default
+
+------------------------------------------------------------
